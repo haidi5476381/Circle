@@ -28,6 +28,7 @@
 	bottomImageV.image = [UIImage imageNamed:@"annularBottomShow"];
 	[self.view addSubview:bottomImageV];
 
+    NSLog(@"Hello word");
 	fetalMoveCounterProgressView = [[FetalMoveCounterProgressView alloc]initWithFrame:CGRectMake(0, 0, 194, 194)];
 	fetalMoveCounterProgressView.center = CGPointMake(bottomImageV.frame.size.width / 2, bottomImageV.frame.size.height / 2);
 	fetalMoveCounterProgressView.counterProgress = 0.1f;
